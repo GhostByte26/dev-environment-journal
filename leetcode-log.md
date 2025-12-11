@@ -12,6 +12,9 @@ Track your problem-solving progress with this table.
 | 2025-11-24 | Merge Strings Alternately (1768) | Easy | C++ | Strings, Two-Pointer Logic | 20 min | ✅ Solved | Brute-force/straightforward merge using shared index `i` (O(n + m)) |
 2025-11-26 | 1071. Greatest Common Divisor of Strings | Easy | C++ | Strings, Math (GCD), Pattern Matching | ~1.5 hours total | ✅ Solved| Learned that the key is checking if str1+str2 == str2+str1 to confirm a shared pattern. GCD applies to lengths, not strings. Return prefix using substr(0, gcd). No loops needed.                                                                                 |-|
 | 2025-12-03 | Can Place Flowers (605)       | Easy       | C++      | Arrays, Simulation, Boundary Checks    | 45 min     | ✅ Solved   | Brute-force simulation with neighbor checks; practiced safe boundaries and mutation. |
+| 2025-12-11 | Reverse Vowels of a String (345) | Easy | C++ | Strings, Two-Pointer | ~2 hours | ✅ Solved | Learned vowel-check helper (`isVowel`) + two-pointer swap from ends. Practiced index vs value distinction and in-place swaps. |
+| 2025-12-11 | Move Zeroes (283) | Easy | C++ | Arrays, Two-Pointer, In-Place Reordering | ~2 hours | ✅ Solved | Mastered reader (`i`) vs writer (`pos`) pointer model. Compaction of non-zero elements maintains order; zeros filled at end. Big improvement in array logic. |
+
 
 
 
